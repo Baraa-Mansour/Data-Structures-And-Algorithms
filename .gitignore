@@ -1,0 +1,77 @@
+## Build results
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+*.nupkg
+packages/
+*.cache
+*.pid
+*.tmp
+
+## Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+## Visual Studio Code
+.vscode/
+
+## JetBrains Rider / IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+## Other editors
+*~
+*.swp
+*.swo
+*.swn
+.history/
+.sublime-project
+.sublime-workspace
+.project
+.classpath
+.settings/
+
+## OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+## Logs / temp / crash dumps
+*.log
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+*.dmp
+*.stackdump
+
+## Environment / secrets
+.env
+.env.*
+!.env.example
+*.secret
+secrets.json
+
+## NuGet
+project.lock.json
+project.assets.json
+*.nuget.props
+*.nuget.targets
